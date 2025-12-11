@@ -1,0 +1,34 @@
+/*-- Border Radius --*/
+@for $i from 1 through $space-count {
+.br-#{5 * $i} {
+    border-radius: #{5px * $i};
+}
+}
+  
+/*-- Border Top Left Radius --*/
+@for $i from 1 through $space-count {
+    .br_tl-#{5 * $i} {
+        border-top-left-radius: #{5px * $i};
+    }
+}  
+
+/*-- Border Top Right Radius --*/
+@for $i from 1 through $space-count {
+    .br_tr-#{5 * $i} {
+        border-top-right-radius: #{5px * $i};
+    }
+}
+
+/*-- Border Bottom Left Radius --*/
+@for $i from 1 through $space-count {
+    .br_bl-#{5 * $i} {
+        border-bottom-left-radius: #{5px * $i};
+    }
+}
+
+/*-- Border Bottom Right Radius --*/
+@for $i from 1 through $space-count {
+    .br_br-#{5 * $i} {
+        border-bottom-right-radius: #{5px * $i};
+    }
+}

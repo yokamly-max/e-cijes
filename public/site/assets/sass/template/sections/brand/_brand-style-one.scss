@@ -1,0 +1,69 @@
+/*==== Brands Section =====================*/
+.brands-section {
+  position: relative;
+  z-index: 2;
+
+  .sponsors-outer {
+    border-top: 1px solid $border-color5;
+    border-bottom: 1px solid $border-color5;
+
+    .trusted-partners {
+      font-size: 18px;
+      color: $dark-color;
+    }
+  }
+}
+
+
+
+.brands-slider {
+  position: relative;
+  padding: 58px 0;
+
+  @include xs {
+    padding: 35px 0;
+  }
+
+  .brand-item {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+    a {
+      position: relative;
+      display: block;
+      -webkit-transition: all 300ms ease;
+      -o-transition: all 300ms ease;
+      transition: all 300ms ease;
+      filter: none;
+
+      &:hover {
+        filter: brightness(0);
+      }
+    }
+
+    img {
+      display: inline-block;
+      max-width: 100%;
+      width: auto;
+      height: auto;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      position: relative;
+      width: auto !important;
+      display: inline-block !important;
+      -webkit-transition: all 500ms ease;
+      -o-transition: all 500ms ease;
+      transition: all 500ms ease;
+    }
+  }
+
+
+  .brand--item {
+    text-align: center;
+  }
+}
